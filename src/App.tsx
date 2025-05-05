@@ -14,7 +14,7 @@ const estilosDivinos = [
 ];
 
 function App() {
-    const [versiculo, setVersiculo] = useState<Versiculo>(null);
+    const [versiculo, setVersiculo] = useState<Versiculo | null>(null);
     const [loading, setLoading] = useState(true);
     const [estilo, setEstilo] = useState(estilosDivinos[0]);
     const [modoNoche, setModoNoche] = useState(false);
